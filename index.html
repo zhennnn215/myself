@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的個人網頁</title>
+
+    
+
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            background: linear-gradient(to right, #4db0db, #c554dc);
+            font-family: "Helvetica";
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 70px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        .menu {
+            margin-top: 50px;
+        }
+
+        .box {
+          display: inline-block;
+          padding: 65px 80px;
+          margin: 25px;
+          font-size: 25px;
+    
+          background: rgb(164, 227, 201);
+          border-radius: 10px;
+          text-decoration: none;
+          color: black;
+    
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+          transition: 0.3s;
+        }
+
+        .box:hover {
+          transform: scale(1.1);
+          background: #7878fa;
+        }
+
+        @media (max-width: 600px) {
+          h1 {
+            font-size: 40px;
+          }
+          h2 {
+            font-size: 20px;
+          }
+          .box {
+            padding: 25px 20px;
+            font-size: 18px;
+            display: block;
+            margin: 15px auto;
+            width: 80%;
+            text-align: center;
+          }
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <h1>我的個人網頁</h1>
+    <h2>資管二A  王鐸蓁  411322401</h2>
+    <div class="menu">
+        <a href="about.html" class="box">自傳履歷</a>
+        <a href="test.html" class="box">職涯測驗結果</a>
+        <a href="work.html" class="box">相關工作</a>
+    </div>
+</body>
+</html>
